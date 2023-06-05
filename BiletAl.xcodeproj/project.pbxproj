@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F2EC939D5AE2960571AC35D /* Pods_BiletAl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BEC2F2B7E82F01B374DFF66 /* Pods_BiletAl.framework */; };
+		261425B12A0F7C6A006BE4B0 /* BusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261425B02A0F7C6A006BE4B0 /* BusViewController.swift */; };
+		261425B32A0F7D3C006BE4B0 /* BusInformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261425B22A0F7D3C006BE4B0 /* BusInformationModel.swift */; };
+		261425B52A0F7ED2006BE4B0 /* NotificationCenterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261425B42A0F7ED2006BE4B0 /* NotificationCenterExtension.swift */; };
+		261425B82A0F7FCC006BE4B0 /* AlertDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261425B72A0F7FCC006BE4B0 /* AlertDialog.swift */; };
+		261425BE2A0F89E3006BE4B0 /* TicketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261425BD2A0F89E3006BE4B0 /* TicketModel.swift */; };
+		261425C12A0F8F21006BE4B0 /* ExampleSeatConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261425C02A0F8F21006BE4B0 /* ExampleSeatConfig.swift */; };
+		261425C32A0F8F41006BE4B0 /* SeatDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261425C22A0F8F41006BE4B0 /* SeatDataManager.swift */; };
+		261425C52A0F8F5E006BE4B0 /* SeatStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261425C42A0F8F5E006BE4B0 /* SeatStub.swift */; };
+		261425C82A0F9873006BE4B0 /* CustomBusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261425C72A0F9873006BE4B0 /* CustomBusTableViewCell.swift */; };
+		261425CC2A0FA7B1006BE4B0 /* CustomBusTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 261425CB2A0FA7B1006BE4B0 /* CustomBusTableViewCell.xib */; };
+		261425CF2A0FB3BA006BE4B0 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 261425CE2A0FB3BA006BE4B0 /* Lottie */; };
+		261425D12A0FB876006BE4B0 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261425D02A0FB876006BE4B0 /* PaymentViewController.swift */; };
+		261A7DAF2A07867000BB6E2E /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A7DAE2A07867000BB6E2E /* OnboardingSlide.swift */; };
+		261A7DB12A07883E00BB6E2E /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A7DB02A07883E00BB6E2E /* OnboardingCollectionViewCell.swift */; };
+		261A7DF32A0AD27B00BB6E2E /* PassengerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A7DF22A0AD27B00BB6E2E /* PassengerModel.swift */; };
+		261A7DF92A0AD4DD00BB6E2E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A7DF82A0AD4DD00BB6E2E /* LoginViewController.swift */; };
+		261A7DFD2A0AD69B00BB6E2E /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A7DFC2A0AD69B00BB6E2E /* SignupViewController.swift */; };
+		261A7DFF2A0C1FBF00BB6E2E /* MoveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A7DFE2A0C1FBF00BB6E2E /* MoveModel.swift */; };
+		261A7E012A0C22D500BB6E2E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A7E002A0C22D500BB6E2E /* HomeViewController.swift */; };
+		262A3C082A1AAA3800C679B1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A3C072A1AAA3800C679B1 /* ProfileViewController.swift */; };
+		26DE23602A07823D008F198D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE235F2A07823D008F198D /* AppDelegate.swift */; };
+		26DE23622A07823D008F198D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE23612A07823D008F198D /* SceneDelegate.swift */; };
+		26DE23672A07823D008F198D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26DE23652A07823D008F198D /* Main.storyboard */; };
+		26DE236A2A07823D008F198D /* BiletAl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26DE23682A07823D008F198D /* BiletAl.xcdatamodeld */; };
+		26DE236C2A07823D008F198D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26DE236B2A07823D008F198D /* Assets.xcassets */; };
+		26DE236F2A07823D008F198D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26DE236D2A07823D008F198D /* LaunchScreen.storyboard */; };
+		26DE237A2A0782A4008F198D /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE23792A0782A4008F198D /* OnboardingViewController.swift */; };
+		26DE237E2A078473008F198D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE237D2A078473008F198D /* UIView.swift */; };
+		26F043332A20DA8B001280DE /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F043322A20DA8B001280DE /* CartModel.swift */; };
+		26F043352A21DB2B001280DE /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F043342A21DB2B001280DE /* UIViewController.swift */; };
+		26F5CFDD2A162584002717B6 /* PresentTicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F5CFDC2A162584002717B6 /* PresentTicketsViewController.swift */; };
+		26F5CFDF2A1630FD002717B6 /* QrModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F5CFDE2A1630FD002717B6 /* QrModel.swift */; };
+		26F5CFF22A176C10002717B6 /* CustomTicketsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F5CFF12A176C10002717B6 /* CustomTicketsTableViewCell.swift */; };
+		26F5CFF42A176E8C002717B6 /* CustomTicketsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F5CFF32A176E8C002717B6 /* CustomTicketsTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EEFA73EF90B2FAD7831DE85 /* Pods-BiletAl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiletAl.release.xcconfig"; path = "Target Support Files/Pods-BiletAl/Pods-BiletAl.release.xcconfig"; sourceTree = "<group>"; };
+		261425B02A0F7C6A006BE4B0 /* BusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusViewController.swift; sourceTree = "<group>"; };
+		261425B22A0F7D3C006BE4B0 /* BusInformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusInformationModel.swift; sourceTree = "<group>"; };
+		261425B42A0F7ED2006BE4B0 /* NotificationCenterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterExtension.swift; sourceTree = "<group>"; };
+		261425B72A0F7FCC006BE4B0 /* AlertDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDialog.swift; sourceTree = "<group>"; };
+		261425BD2A0F89E3006BE4B0 /* TicketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketModel.swift; sourceTree = "<group>"; };
+		261425C02A0F8F21006BE4B0 /* ExampleSeatConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSeatConfig.swift; sourceTree = "<group>"; };
+		261425C22A0F8F41006BE4B0 /* SeatDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatDataManager.swift; sourceTree = "<group>"; };
+		261425C42A0F8F5E006BE4B0 /* SeatStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatStub.swift; sourceTree = "<group>"; };
+		261425C72A0F9873006BE4B0 /* CustomBusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBusTableViewCell.swift; sourceTree = "<group>"; };
+		261425CB2A0FA7B1006BE4B0 /* CustomBusTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomBusTableViewCell.xib; sourceTree = "<group>"; };
+		261425D02A0FB876006BE4B0 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		261A7DAE2A07867000BB6E2E /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		261A7DB02A07883E00BB6E2E /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		261A7DF22A0AD27B00BB6E2E /* PassengerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerModel.swift; sourceTree = "<group>"; };
+		261A7DF82A0AD4DD00BB6E2E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		261A7DFC2A0AD69B00BB6E2E /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		261A7DFE2A0C1FBF00BB6E2E /* MoveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveModel.swift; sourceTree = "<group>"; };
+		261A7E002A0C22D500BB6E2E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		262A3C072A1AAA3800C679B1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		26DE235C2A07823D008F198D /* BiletAl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiletAl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DE235F2A07823D008F198D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26DE23612A07823D008F198D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		26DE23662A07823D008F198D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26DE23692A07823D008F198D /* BiletAl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BiletAl.xcdatamodel; sourceTree = "<group>"; };
+		26DE236B2A07823D008F198D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26DE236E2A07823D008F198D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26DE23702A07823D008F198D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26DE23792A0782A4008F198D /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		26DE237D2A078473008F198D /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		26F043322A20DA8B001280DE /* CartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
+		26F043342A21DB2B001280DE /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		26F5CFDC2A162584002717B6 /* PresentTicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentTicketsViewController.swift; sourceTree = "<group>"; };
+		26F5CFDE2A1630FD002717B6 /* QrModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrModel.swift; sourceTree = "<group>"; };
+		26F5CFF12A176C10002717B6 /* CustomTicketsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTicketsTableViewCell.swift; sourceTree = "<group>"; };
+		26F5CFF32A176E8C002717B6 /* CustomTicketsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTicketsTableViewCell.xib; sourceTree = "<group>"; };
+		6BEC2F2B7E82F01B374DFF66 /* Pods_BiletAl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BiletAl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75797FBA3472A8E70C1B46D /* Pods-BiletAl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiletAl.debug.xcconfig"; path = "Target Support Files/Pods-BiletAl/Pods-BiletAl.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26DE23592A07823D008F198D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2EC939D5AE2960571AC35D /* Pods_BiletAl.framework in Frameworks */,
+				261425CF2A0FB3BA006BE4B0 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		261425BF2A0F8EFD006BE4B0 /* BusOperations */ = {
+			isa = PBXGroup;
+			children = (
+				261425C02A0F8F21006BE4B0 /* ExampleSeatConfig.swift */,
+				261425C22A0F8F41006BE4B0 /* SeatDataManager.swift */,
+				261425C42A0F8F5E006BE4B0 /* SeatStub.swift */,
+			);
+			path = BusOperations;
+			sourceTree = "<group>";
+		};
+		261425C62A0F984D006BE4B0 /* BusDesign */ = {
+			isa = PBXGroup;
+			children = (
+				261425C72A0F9873006BE4B0 /* CustomBusTableViewCell.swift */,
+				261425CB2A0FA7B1006BE4B0 /* CustomBusTableViewCell.xib */,
+			);
+			path = BusDesign;
+			sourceTree = "<group>";
+		};
+		261A7DF42A0AD48100BB6E2E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				261425BF2A0F8EFD006BE4B0 /* BusOperations */,
+				261A7DF52A0AD49400BB6E2E /* RegisterController */,
+				261A7E002A0C22D500BB6E2E /* HomeViewController.swift */,
+				261425B02A0F7C6A006BE4B0 /* BusViewController.swift */,
+				261425D02A0FB876006BE4B0 /* PaymentViewController.swift */,
+				26F5CFDC2A162584002717B6 /* PresentTicketsViewController.swift */,
+				262A3C072A1AAA3800C679B1 /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		261A7DF52A0AD49400BB6E2E /* RegisterController */ = {
+			isa = PBXGroup;
+			children = (
+				261A7DF82A0AD4DD00BB6E2E /* LoginViewController.swift */,
+				261A7DFC2A0AD69B00BB6E2E /* SignupViewController.swift */,
+			);
+			path = RegisterController;
+			sourceTree = "<group>";
+		};
+		26DE23532A07823D008F198D = {
+			isa = PBXGroup;
+			children = (
+				26DE235E2A07823D008F198D /* BiletAl */,
+				26DE235D2A07823D008F198D /* Products */,
+				7064AA5CF74E4D5D1BAB5104 /* Pods */,
+				E5236BFF197CB5970BCB2E2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26DE235D2A07823D008F198D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26DE235C2A07823D008F198D /* BiletAl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26DE235E2A07823D008F198D /* BiletAl */ = {
+			isa = PBXGroup;
+			children = (
+				261A7DF42A0AD48100BB6E2E /* Controllers */,
+				26DE237B2A078441008F198D /* Extensions */,
+				26DE23772A078259008F198D /* Models */,
+				26DE23762A078250008F198D /* Views */,
+				26DE235F2A07823D008F198D /* AppDelegate.swift */,
+				26DE23612A07823D008F198D /* SceneDelegate.swift */,
+				26DE23652A07823D008F198D /* Main.storyboard */,
+				26DE236B2A07823D008F198D /* Assets.xcassets */,
+				26DE236D2A07823D008F198D /* LaunchScreen.storyboard */,
+				26DE23702A07823D008F198D /* Info.plist */,
+				26DE23682A07823D008F198D /* BiletAl.xcdatamodeld */,
+				261425B72A0F7FCC006BE4B0 /* AlertDialog.swift */,
+			);
+			path = BiletAl;
+			sourceTree = "<group>";
+		};
+		26DE23762A078250008F198D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				26F5CFE82A16A1AB002717B6 /* TicketsDesign */,
+				261425C62A0F984D006BE4B0 /* BusDesign */,
+				26DE23782A078287008F198D /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		26DE23772A078259008F198D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				261A7DAE2A07867000BB6E2E /* OnboardingSlide.swift */,
+				261A7DF22A0AD27B00BB6E2E /* PassengerModel.swift */,
+				261A7DFE2A0C1FBF00BB6E2E /* MoveModel.swift */,
+				261425B22A0F7D3C006BE4B0 /* BusInformationModel.swift */,
+				261425BD2A0F89E3006BE4B0 /* TicketModel.swift */,
+				26F5CFDE2A1630FD002717B6 /* QrModel.swift */,
+				26F043322A20DA8B001280DE /* CartModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		26DE23782A078287008F198D /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				26DE23792A0782A4008F198D /* OnboardingViewController.swift */,
+				261A7DB02A07883E00BB6E2E /* OnboardingCollectionViewCell.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		26DE237B2A078441008F198D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				26DE237D2A078473008F198D /* UIView.swift */,
+				261425B42A0F7ED2006BE4B0 /* NotificationCenterExtension.swift */,
+				26F043342A21DB2B001280DE /* UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		26F5CFE82A16A1AB002717B6 /* TicketsDesign */ = {
+			isa = PBXGroup;
+			children = (
+				26F5CFF12A176C10002717B6 /* CustomTicketsTableViewCell.swift */,
+				26F5CFF32A176E8C002717B6 /* CustomTicketsTableViewCell.xib */,
+			);
+			path = TicketsDesign;
+			sourceTree = "<group>";
+		};
+		7064AA5CF74E4D5D1BAB5104 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A75797FBA3472A8E70C1B46D /* Pods-BiletAl.debug.xcconfig */,
+				1EEFA73EF90B2FAD7831DE85 /* Pods-BiletAl.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E5236BFF197CB5970BCB2E2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BEC2F2B7E82F01B374DFF66 /* Pods_BiletAl.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26DE235B2A07823D008F198D /* BiletAl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DE23732A07823D008F198D /* Build configuration list for PBXNativeTarget "BiletAl" */;
+			buildPhases = (
+				D110A79A9A1922A2F428DC9D /* [CP] Check Pods Manifest.lock */,
+				26DE23582A07823D008F198D /* Sources */,
+				26DE23592A07823D008F198D /* Frameworks */,
+				26DE235A2A07823D008F198D /* Resources */,
+				2EA8E51A6A9A9C096CA5D3AC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiletAl;
+			packageProductDependencies = (
+				261425CE2A0FB3BA006BE4B0 /* Lottie */,
+			);
+			productName = BiletAl;
+			productReference = 26DE235C2A07823D008F198D /* BiletAl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26DE23542A07823D008F198D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					26DE235B2A07823D008F198D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 26DE23572A07823D008F198D /* Build configuration list for PBXProject "BiletAl" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26DE23532A07823D008F198D;
+			packageReferences = (
+				261425CD2A0FB3BA006BE4B0 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 26DE235D2A07823D008F198D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26DE235B2A07823D008F198D /* BiletAl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26DE235A2A07823D008F198D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DE236F2A07823D008F198D /* LaunchScreen.storyboard in Resources */,
+				26DE236C2A07823D008F198D /* Assets.xcassets in Resources */,
+				26DE23672A07823D008F198D /* Main.storyboard in Resources */,
+				261425CC2A0FA7B1006BE4B0 /* CustomBusTableViewCell.xib in Resources */,
+				26F5CFF42A176E8C002717B6 /* CustomTicketsTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EA8E51A6A9A9C096CA5D3AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BiletAl/Pods-BiletAl-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BiletAl/Pods-BiletAl-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BiletAl/Pods-BiletAl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D110A79A9A1922A2F428DC9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BiletAl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26DE23582A07823D008F198D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261A7DF92A0AD4DD00BB6E2E /* LoginViewController.swift in Sources */,
+				261A7DF32A0AD27B00BB6E2E /* PassengerModel.swift in Sources */,
+				26F5CFDD2A162584002717B6 /* PresentTicketsViewController.swift in Sources */,
+				261A7DFD2A0AD69B00BB6E2E /* SignupViewController.swift in Sources */,
+				261425C32A0F8F41006BE4B0 /* SeatDataManager.swift in Sources */,
+				261425C12A0F8F21006BE4B0 /* ExampleSeatConfig.swift in Sources */,
+				26DE237E2A078473008F198D /* UIView.swift in Sources */,
+				261425B82A0F7FCC006BE4B0 /* AlertDialog.swift in Sources */,
+				26DE236A2A07823D008F198D /* BiletAl.xcdatamodeld in Sources */,
+				26F043332A20DA8B001280DE /* CartModel.swift in Sources */,
+				26F5CFF22A176C10002717B6 /* CustomTicketsTableViewCell.swift in Sources */,
+				262A3C082A1AAA3800C679B1 /* ProfileViewController.swift in Sources */,
+				261425C52A0F8F5E006BE4B0 /* SeatStub.swift in Sources */,
+				26DE23602A07823D008F198D /* AppDelegate.swift in Sources */,
+				261425C82A0F9873006BE4B0 /* CustomBusTableViewCell.swift in Sources */,
+				26F5CFDF2A1630FD002717B6 /* QrModel.swift in Sources */,
+				26DE23622A07823D008F198D /* SceneDelegate.swift in Sources */,
+				261425B32A0F7D3C006BE4B0 /* BusInformationModel.swift in Sources */,
+				261A7DAF2A07867000BB6E2E /* OnboardingSlide.swift in Sources */,
+				261A7DB12A07883E00BB6E2E /* OnboardingCollectionViewCell.swift in Sources */,
+				261425B52A0F7ED2006BE4B0 /* NotificationCenterExtension.swift in Sources */,
+				261A7DFF2A0C1FBF00BB6E2E /* MoveModel.swift in Sources */,
+				261425D12A0FB876006BE4B0 /* PaymentViewController.swift in Sources */,
+				261425B12A0F7C6A006BE4B0 /* BusViewController.swift in Sources */,
+				26F043352A21DB2B001280DE /* UIViewController.swift in Sources */,
+				26DE237A2A0782A4008F198D /* OnboardingViewController.swift in Sources */,
+				261425BE2A0F89E3006BE4B0 /* TicketModel.swift in Sources */,
+				261A7E012A0C22D500BB6E2E /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26DE23652A07823D008F198D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26DE23662A07823D008F198D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26DE236D2A07823D008F198D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26DE236E2A07823D008F198D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26DE23712A07823D008F198D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26DE23722A07823D008F198D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26DE23742A07823D008F198D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A75797FBA3472A8E70C1B46D /* Pods-BiletAl.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HQG8W5FTGU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BiletAl/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.berkhatipoglu.BiletAl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26DE23752A07823D008F198D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EEFA73EF90B2FAD7831DE85 /* Pods-BiletAl.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HQG8W5FTGU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BiletAl/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.berkhatipoglu.BiletAl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26DE23572A07823D008F198D /* Build configuration list for PBXProject "BiletAl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DE23712A07823D008F198D /* Debug */,
+				26DE23722A07823D008F198D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DE23732A07823D008F198D /* Build configuration list for PBXNativeTarget "BiletAl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DE23742A07823D008F198D /* Debug */,
+				26DE23752A07823D008F198D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		261425CD2A0FB3BA006BE4B0 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		261425CE2A0FB3BA006BE4B0 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 261425CD2A0FB3BA006BE4B0 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		26DE23682A07823D008F198D /* BiletAl.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				26DE23692A07823D008F198D /* BiletAl.xcdatamodel */,
+			);
+			currentVersion = 26DE23692A07823D008F198D /* BiletAl.xcdatamodel */;
+			path = BiletAl.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 26DE23542A07823D008F198D /* Project object */;
+}

@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "colored-hand-drawn-doodle-turkey-map-turkish-city-names-lettering-cartoon-landmarks-tourist-attractions-cliparts-travel-trip-178988125.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

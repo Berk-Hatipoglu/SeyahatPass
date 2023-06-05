@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06AAE1322F4718C0863E45341F0E9550 /* ALBusSeatType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428899DF2F80A8FE778731DD9754C7BD /* ALBusSeatType.swift */; };
+		0C50332AE6E9AF2053F19086632A7ABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE611864214AA3AE4F56CAF38B983753 /* Assets.xcassets */; };
+		19EF490DE6B677E1F8A245415A8EF22E /* ALSelectionTooltipButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147C0F07963DD3864E55460E20893512 /* ALSelectionTooltipButton.swift */; };
+		1BB4231B5BECE483FF806242484477CA /* ALBusSeat-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC6BD50DA559D82D88B200CF3C8C591 /* ALBusSeat-Ext.swift */; };
+		3EB446BE46244F5E25B557E57CE95EB6 /* ALBusSeatView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C69FCDE4E8C2B126B7638C520F237FA9 /* ALBusSeatView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C8B5496A78F0418A13FD8007EF2CE2A /* Pods-BiletAl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7D2F8C3CBB3B11646F0361A703A21F /* Pods-BiletAl-dummy.m */; };
+		680C7301005C8FD707D2423AE74E494E /* ALSelectionTooltip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A632329798CDAF751843FC3499716A8 /* ALSelectionTooltip.swift */; };
+		6857DA17D80CB123FB2E0409AAC81DB2 /* ALBusSeatViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F821C9665EC383F4C9E6D18457F51C0 /* ALBusSeatViewHeaderView.swift */; };
+		71015330D9C72F54223A58649406FB44 /* ALBusSeatView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2B750AD8A444C2DF0B26F54E680B2757 /* ALBusSeatView.bundle */; };
+		771AB822176908CE6B2E81EF2931C4DB /* ALBusSeatViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14BBB346F197D7F4C4515262B67100F /* ALBusSeatViewConfig.swift */; };
+		8C31E6E5CB201045BA38E94E066BB82C /* ALBusLeftHandDriveLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3219304B0A954C1D8437DF5D0A72DA59 /* ALBusLeftHandDriveLayout.swift */; };
+		8F6B171A476CFCB3934FFA0BE3146225 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		B2C2BB4EFB909AF8DB8F9721DDD1ECB1 /* ALBusSeatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B2979BA8C6496D48896B96124DF6E6 /* ALBusSeatView.swift */; };
+		C728B4AAD4A08C1BC40AF8A77E8F4B9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		D70E3BE4CF83557AFAA75BC72A5F731B /* Pods-BiletAl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E80708C0E527680C2AF9D9FA0D45452 /* Pods-BiletAl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA30BE76BA0EEEC3C60409F6314389BE /* ALBusSeatView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5A684BC95E9D91947B050C5C0BC74F /* ALBusSeatView-dummy.m */; };
+		F2278FE96D89D56B1D75E8A558F52E69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		F51A4C31E0E3527508A8D696B519E3CA /* ALSeatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A48363D03056D5D1B8767BCEB60968B /* ALSeatCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		529596A79BB84A0C308768537E2BF167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17D02ED5E8B0E74E07281424E9574D45;
+			remoteInfo = ALBusSeatView;
+		};
+		F365C6B959D5FCDAB076D2AFECC0D737 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE45EE8C5698069280DB3C30FAEF1B1E;
+			remoteInfo = "ALBusSeatView-ALBusSeatView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C156BC3037A58604687C2EBCD8E4305 /* ALBusSeatView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALBusSeatView-prefix.pch"; sourceTree = "<group>"; };
+		0F821C9665EC383F4C9E6D18457F51C0 /* ALBusSeatViewHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALBusSeatViewHeaderView.swift; path = ALBusSeatView/Classes/ALBusSeatViewHeaderView.swift; sourceTree = "<group>"; };
+		147C0F07963DD3864E55460E20893512 /* ALSelectionTooltipButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALSelectionTooltipButton.swift; path = ALBusSeatView/Classes/ALSelectionTooltipButton.swift; sourceTree = "<group>"; };
+		21A82302AEDFE83B5B0937404C895FA1 /* Pods-BiletAl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BiletAl.debug.xcconfig"; sourceTree = "<group>"; };
+		240CDF5C435417B4AA61BC9718440767 /* ALBusSeatView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALBusSeatView.debug.xcconfig; sourceTree = "<group>"; };
+		2A1AE51E2B253C485A6056B6DD03A9E2 /* ALBusSeatView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ALBusSeatView-Info.plist"; sourceTree = "<group>"; };
+		2B24AADD06A8782A33E054AB3CB87748 /* Pods-BiletAl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BiletAl.modulemap"; sourceTree = "<group>"; };
+		2B750AD8A444C2DF0B26F54E680B2757 /* ALBusSeatView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALBusSeatView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3219304B0A954C1D8437DF5D0A72DA59 /* ALBusLeftHandDriveLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALBusLeftHandDriveLayout.swift; path = ALBusSeatView/Classes/ALBusLeftHandDriveLayout.swift; sourceTree = "<group>"; };
+		3A48363D03056D5D1B8767BCEB60968B /* ALSeatCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALSeatCell.swift; path = ALBusSeatView/Classes/ALSeatCell.swift; sourceTree = "<group>"; };
+		428899DF2F80A8FE778731DD9754C7BD /* ALBusSeatType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALBusSeatType.swift; path = ALBusSeatView/Classes/ALBusSeatType.swift; sourceTree = "<group>"; };
+		4DDD527DD644BB4A5748E3362B35555C /* ResourceBundle-ALBusSeatView-ALBusSeatView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ALBusSeatView-ALBusSeatView-Info.plist"; sourceTree = "<group>"; };
+		57FC9B9D1A0CC53CCDDCEFCCC1159CC9 /* ALBusSeatView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ALBusSeatView.modulemap; sourceTree = "<group>"; };
+		5F7D2F8C3CBB3B11646F0361A703A21F /* Pods-BiletAl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BiletAl-dummy.m"; sourceTree = "<group>"; };
+		6A632329798CDAF751843FC3499716A8 /* ALSelectionTooltip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALSelectionTooltip.swift; path = ALBusSeatView/Classes/ALSelectionTooltip.swift; sourceTree = "<group>"; };
+		7C36141EC7DE590AFC0F53FAA6F20DFE /* Pods-BiletAl-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BiletAl-frameworks.sh"; sourceTree = "<group>"; };
+		7DB0280D54B4851E8CB3735FA0168663 /* Pods-BiletAl-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BiletAl-acknowledgements.plist"; sourceTree = "<group>"; };
+		868EBCD1583A9FFE5428E886347A489F /* ALBusSeatView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ALBusSeatView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E80708C0E527680C2AF9D9FA0D45452 /* Pods-BiletAl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BiletAl-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F515A07F1205A0FADF413C9AB055292 /* Pods-BiletAl */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BiletAl"; path = Pods_BiletAl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A481F8CBD8165AC9FC6072EE9B9AAAF8 /* ALBusSeatView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALBusSeatView.release.xcconfig; sourceTree = "<group>"; };
+		AAD8996B72DFE8071C30BF2F37981662 /* Pods-BiletAl-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BiletAl-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BBC6BD50DA559D82D88B200CF3C8C591 /* ALBusSeat-Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ALBusSeat-Ext.swift"; path = "ALBusSeatView/Classes/ALBusSeat-Ext.swift"; sourceTree = "<group>"; };
+		BCAA593E49D325198774514A896EEFA0 /* Pods-BiletAl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BiletAl-Info.plist"; sourceTree = "<group>"; };
+		C14BBB346F197D7F4C4515262B67100F /* ALBusSeatViewConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALBusSeatViewConfig.swift; path = ALBusSeatView/Classes/ALBusSeatViewConfig.swift; sourceTree = "<group>"; };
+		C69FCDE4E8C2B126B7638C520F237FA9 /* ALBusSeatView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALBusSeatView-umbrella.h"; sourceTree = "<group>"; };
+		CE5A684BC95E9D91947B050C5C0BC74F /* ALBusSeatView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALBusSeatView-dummy.m"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D9B2979BA8C6496D48896B96124DF6E6 /* ALBusSeatView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALBusSeatView.swift; path = ALBusSeatView/Classes/ALBusSeatView.swift; sourceTree = "<group>"; };
+		DA0E3B9609C5C959C8F2C0E739F76132 /* Pods-BiletAl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BiletAl.release.xcconfig"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EE611864214AA3AE4F56CAF38B983753 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ALBusSeatView/Assets/Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C784C15D3B04C2ED5CB69A1F2F4F180 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2278FE96D89D56B1D75E8A558F52E69 /* Foundation.framework in Frameworks */,
+				8F6B171A476CFCB3934FFA0BE3146225 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E678EB26442837D688E24D720155F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C728B4AAD4A08C1BC40AF8A77E8F4B9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1219E75E432104975D45B840FD2F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F9E98D9CC6572F17622B06BD5ED576C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE611864214AA3AE4F56CAF38B983753 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51C16B1AEDB9D62EBE0A254CB49B9112 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAC51A61E8C4F3FD2222FC9068FD62FF /* ALBusSeatView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6281ECE8623671573E49F4C67BEFB16B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				868EBCD1583A9FFE5428E886347A489F /* ALBusSeatView.framework */,
+				2B750AD8A444C2DF0B26F54E680B2757 /* ALBusSeatView.bundle */,
+				9F515A07F1205A0FADF413C9AB055292 /* Pods-BiletAl */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78E67818C4A6B2213F39298A948AF35F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57FC9B9D1A0CC53CCDDCEFCCC1159CC9 /* ALBusSeatView.modulemap */,
+				CE5A684BC95E9D91947B050C5C0BC74F /* ALBusSeatView-dummy.m */,
+				2A1AE51E2B253C485A6056B6DD03A9E2 /* ALBusSeatView-Info.plist */,
+				0C156BC3037A58604687C2EBCD8E4305 /* ALBusSeatView-prefix.pch */,
+				C69FCDE4E8C2B126B7638C520F237FA9 /* ALBusSeatView-umbrella.h */,
+				240CDF5C435417B4AA61BC9718440767 /* ALBusSeatView.debug.xcconfig */,
+				A481F8CBD8165AC9FC6072EE9B9AAAF8 /* ALBusSeatView.release.xcconfig */,
+				4DDD527DD644BB4A5748E3362B35555C /* ResourceBundle-ALBusSeatView-ALBusSeatView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ALBusSeatView";
+			sourceTree = "<group>";
+		};
+		A4CA0CA24434316EB95D8B76D2B8BFAB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9C24F80E9CD1C1891FEC592102C44C6 /* Pods-BiletAl */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CAC51A61E8C4F3FD2222FC9068FD62FF /* ALBusSeatView */ = {
+			isa = PBXGroup;
+			children = (
+				3219304B0A954C1D8437DF5D0A72DA59 /* ALBusLeftHandDriveLayout.swift */,
+				BBC6BD50DA559D82D88B200CF3C8C591 /* ALBusSeat-Ext.swift */,
+				428899DF2F80A8FE778731DD9754C7BD /* ALBusSeatType.swift */,
+				D9B2979BA8C6496D48896B96124DF6E6 /* ALBusSeatView.swift */,
+				C14BBB346F197D7F4C4515262B67100F /* ALBusSeatViewConfig.swift */,
+				0F821C9665EC383F4C9E6D18457F51C0 /* ALBusSeatViewHeaderView.swift */,
+				3A48363D03056D5D1B8767BCEB60968B /* ALSeatCell.swift */,
+				6A632329798CDAF751843FC3499716A8 /* ALSelectionTooltip.swift */,
+				147C0F07963DD3864E55460E20893512 /* ALSelectionTooltipButton.swift */,
+				0F9E98D9CC6572F17622B06BD5ED576C /* Resources */,
+				78E67818C4A6B2213F39298A948AF35F /* Support Files */,
+			);
+			path = ALBusSeatView;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				51C16B1AEDB9D62EBE0A254CB49B9112 /* Pods */,
+				6281ECE8623671573E49F4C67BEFB16B /* Products */,
+				A4CA0CA24434316EB95D8B76D2B8BFAB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D9C24F80E9CD1C1891FEC592102C44C6 /* Pods-BiletAl */ = {
+			isa = PBXGroup;
+			children = (
+				2B24AADD06A8782A33E054AB3CB87748 /* Pods-BiletAl.modulemap */,
+				AAD8996B72DFE8071C30BF2F37981662 /* Pods-BiletAl-acknowledgements.markdown */,
+				7DB0280D54B4851E8CB3735FA0168663 /* Pods-BiletAl-acknowledgements.plist */,
+				5F7D2F8C3CBB3B11646F0361A703A21F /* Pods-BiletAl-dummy.m */,
+				7C36141EC7DE590AFC0F53FAA6F20DFE /* Pods-BiletAl-frameworks.sh */,
+				BCAA593E49D325198774514A896EEFA0 /* Pods-BiletAl-Info.plist */,
+				8E80708C0E527680C2AF9D9FA0D45452 /* Pods-BiletAl-umbrella.h */,
+				21A82302AEDFE83B5B0937404C895FA1 /* Pods-BiletAl.debug.xcconfig */,
+				DA0E3B9609C5C959C8F2C0E739F76132 /* Pods-BiletAl.release.xcconfig */,
+			);
+			name = "Pods-BiletAl";
+			path = "Target Support Files/Pods-BiletAl";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01207C769E6C89154F3D55A172CD2FD8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70E3BE4CF83557AFAA75BC72A5F731B /* Pods-BiletAl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA226941A4AF10A3C2D698EA21D61C8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB446BE46244F5E25B557E57CE95EB6 /* ALBusSeatView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17D02ED5E8B0E74E07281424E9574D45 /* ALBusSeatView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3765BF1C3EDCE08AADFF496E7DFD4B47 /* Build configuration list for PBXNativeTarget "ALBusSeatView" */;
+			buildPhases = (
+				CA226941A4AF10A3C2D698EA21D61C8B /* Headers */,
+				8BBA95A3C4A9BC17E7DA3D7C7392C717 /* Sources */,
+				0C784C15D3B04C2ED5CB69A1F2F4F180 /* Frameworks */,
+				DCC2A00F8C21C7A54181A3ABB49BC895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F130D9ACAE0D3EFF16F52C993ED3FE20 /* PBXTargetDependency */,
+			);
+			name = ALBusSeatView;
+			productName = ALBusSeatView;
+			productReference = 868EBCD1583A9FFE5428E886347A489F /* ALBusSeatView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		889B8E429A4C3A6F09FBBF574300197C /* Pods-BiletAl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5677E24840EC70CDF533B27ECC26956E /* Build configuration list for PBXNativeTarget "Pods-BiletAl" */;
+			buildPhases = (
+				01207C769E6C89154F3D55A172CD2FD8 /* Headers */,
+				27EBB23EB38D41DBC2B948FD8751C3AC /* Sources */,
+				42E678EB26442837D688E24D720155F1 /* Frameworks */,
+				4D9ED1C3CF40E13A421051D8AEBAAD36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADE2A157A27F535ADA21817C0E20D76B /* PBXTargetDependency */,
+			);
+			name = "Pods-BiletAl";
+			productName = Pods_BiletAl;
+			productReference = 9F515A07F1205A0FADF413C9AB055292 /* Pods-BiletAl */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE45EE8C5698069280DB3C30FAEF1B1E /* ALBusSeatView-ALBusSeatView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E06B4379F7BA328203380A1B0F585E7 /* Build configuration list for PBXNativeTarget "ALBusSeatView-ALBusSeatView" */;
+			buildPhases = (
+				8F8915A471D621235F3537A3BDABC579 /* Sources */,
+				AF1219E75E432104975D45B840FD2F3C /* Frameworks */,
+				BF1C2C340170D5AA067C30BC815E7C4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ALBusSeatView-ALBusSeatView";
+			productName = ALBusSeatView;
+			productReference = 2B750AD8A444C2DF0B26F54E680B2757 /* ALBusSeatView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6281ECE8623671573E49F4C67BEFB16B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17D02ED5E8B0E74E07281424E9574D45 /* ALBusSeatView */,
+				FE45EE8C5698069280DB3C30FAEF1B1E /* ALBusSeatView-ALBusSeatView */,
+				889B8E429A4C3A6F09FBBF574300197C /* Pods-BiletAl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D9ED1C3CF40E13A421051D8AEBAAD36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1C2C340170D5AA067C30BC815E7C4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C50332AE6E9AF2053F19086632A7ABD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC2A00F8C21C7A54181A3ABB49BC895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71015330D9C72F54223A58649406FB44 /* ALBusSeatView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27EBB23EB38D41DBC2B948FD8751C3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8B5496A78F0418A13FD8007EF2CE2A /* Pods-BiletAl-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBA95A3C4A9BC17E7DA3D7C7392C717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C31E6E5CB201045BA38E94E066BB82C /* ALBusLeftHandDriveLayout.swift in Sources */,
+				1BB4231B5BECE483FF806242484477CA /* ALBusSeat-Ext.swift in Sources */,
+				06AAE1322F4718C0863E45341F0E9550 /* ALBusSeatType.swift in Sources */,
+				B2C2BB4EFB909AF8DB8F9721DDD1ECB1 /* ALBusSeatView.swift in Sources */,
+				EA30BE76BA0EEEC3C60409F6314389BE /* ALBusSeatView-dummy.m in Sources */,
+				771AB822176908CE6B2E81EF2931C4DB /* ALBusSeatViewConfig.swift in Sources */,
+				6857DA17D80CB123FB2E0409AAC81DB2 /* ALBusSeatViewHeaderView.swift in Sources */,
+				F51A4C31E0E3527508A8D696B519E3CA /* ALSeatCell.swift in Sources */,
+				680C7301005C8FD707D2423AE74E494E /* ALSelectionTooltip.swift in Sources */,
+				19EF490DE6B677E1F8A245415A8EF22E /* ALSelectionTooltipButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8915A471D621235F3537A3BDABC579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADE2A157A27F535ADA21817C0E20D76B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ALBusSeatView;
+			target = 17D02ED5E8B0E74E07281424E9574D45 /* ALBusSeatView */;
+			targetProxy = 529596A79BB84A0C308768537E2BF167 /* PBXContainerItemProxy */;
+		};
+		F130D9ACAE0D3EFF16F52C993ED3FE20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ALBusSeatView-ALBusSeatView";
+			target = FE45EE8C5698069280DB3C30FAEF1B1E /* ALBusSeatView-ALBusSeatView */;
+			targetProxy = F365C6B959D5FCDAB076D2AFECC0D737 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A43326C409D755F9255D7E45B974CB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21A82302AEDFE83B5B0937404C895FA1 /* Pods-BiletAl.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BiletAl/Pods-BiletAl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BiletAl/Pods-BiletAl.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B0CD55175978E8214CA65921A2B03F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 240CDF5C435417B4AA61BC9718440767 /* ALBusSeatView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ALBusSeatView";
+				IBSC_MODULE = ALBusSeatView;
+				INFOPLIST_FILE = "Target Support Files/ALBusSeatView/ResourceBundle-ALBusSeatView-ALBusSeatView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				PRODUCT_NAME = ALBusSeatView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		44303D0B0F7FC3F6D4A94593F40CD6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA0E3B9609C5C959C8F2C0E739F76132 /* Pods-BiletAl.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BiletAl/Pods-BiletAl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BiletAl/Pods-BiletAl.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8BD1E989ECE695166BE9DB05379A836F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A481F8CBD8165AC9FC6072EE9B9AAAF8 /* ALBusSeatView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ALBusSeatView";
+				IBSC_MODULE = ALBusSeatView;
+				INFOPLIST_FILE = "Target Support Files/ALBusSeatView/ResourceBundle-ALBusSeatView-ALBusSeatView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				PRODUCT_NAME = ALBusSeatView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8FB6273A98E7B11639A7AB2D84CB3F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A481F8CBD8165AC9FC6072EE9B9AAAF8 /* ALBusSeatView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ALBusSeatView/ALBusSeatView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALBusSeatView/ALBusSeatView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ALBusSeatView/ALBusSeatView.modulemap";
+				PRODUCT_MODULE_NAME = ALBusSeatView;
+				PRODUCT_NAME = ALBusSeatView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		912C39B4F3B41C9A75C4537D2CA53E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 240CDF5C435417B4AA61BC9718440767 /* ALBusSeatView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ALBusSeatView/ALBusSeatView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALBusSeatView/ALBusSeatView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ALBusSeatView/ALBusSeatView.modulemap";
+				PRODUCT_MODULE_NAME = ALBusSeatView;
+				PRODUCT_NAME = ALBusSeatView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E06B4379F7BA328203380A1B0F585E7 /* Build configuration list for PBXNativeTarget "ALBusSeatView-ALBusSeatView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0CD55175978E8214CA65921A2B03F5 /* Debug */,
+				8BD1E989ECE695166BE9DB05379A836F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3765BF1C3EDCE08AADFF496E7DFD4B47 /* Build configuration list for PBXNativeTarget "ALBusSeatView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				912C39B4F3B41C9A75C4537D2CA53E79 /* Debug */,
+				8FB6273A98E7B11639A7AB2D84CB3F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5677E24840EC70CDF533B27ECC26956E /* Build configuration list for PBXNativeTarget "Pods-BiletAl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A43326C409D755F9255D7E45B974CB7 /* Debug */,
+				44303D0B0F7FC3F6D4A94593F40CD6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
