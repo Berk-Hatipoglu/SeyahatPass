@@ -63,11 +63,9 @@ class PresentTicketsViewController: UIViewController {
     
     func getData(){
         if let loggedInEmail = UserDefaults.standard.string(forKey: "loggedInEmail"){
-            // Burada loggedInEmail değeri kullanıcının oturum açtığı email adresini temsil ediyor
             
             let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
             
-            // CoreData'den kayıtları almak için gerekli işlemleri yapın (Örnek olarak bir NSFetchRequest kullanacağız)
             let fetchRequest: NSFetchRequest<Ticket> = Ticket.fetchRequest()
             let predicate = NSPredicate(format: "user_email == %@", loggedInEmail)
             fetchRequest.predicate = predicate
